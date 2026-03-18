@@ -362,13 +362,13 @@ export default function Home() {
 
         {/* CONTACT */}
         <section id="contact" style={{ maxWidth: 1100, margin: "0 auto", padding: "48px 24px 80px" }}>
-          <div style={{ ...cardBase, padding: 24 }}>
+          <div style={{ ...cardBase, padding: 24, textAlign: "center" }}>
             <h2 style={{ fontSize: 28, margin: 0 }}>Contact</h2>
             <p style={{ marginTop: 10, opacity: 0.72 }}>
               Email me and I’ll reply quickly.
             </p>
 
-            <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 16 }}>
+            <div style={{ display: "flex", justifyContent: "center", gap: 12, flexWrap: "wrap", marginTop: 16 }}>
               <a
                 href="mailto:your@email.com"
                 style={{

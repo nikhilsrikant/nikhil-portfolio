@@ -34,7 +34,16 @@ function injectThemeCSSVars() {
 
   const style = document.createElement("style");
   style.id = "theme-vars";
-  style.innerHTML = `
+style.innerHTML = `
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+  }
+  body {
+    overflow-x: hidden;
+  }
+
   :root[data-theme="light"]{
     --bg: #f5f5f7;
     --text: #1d1d1f;
@@ -64,7 +73,7 @@ function injectThemeCSSVars() {
     --primaryText: #000000;
     --soft: rgba(255,255,255,.06);
   }
-  `;
+`;
   document.head.appendChild(style);
 }
 

@@ -138,7 +138,7 @@ export default function Home() {
 
       <main>
         {/* HERO */}
-        <section style={{ maxWidth: 1100, margin: "0 auto", padding: "72px 24px 32px" }}>
+        <section style={{ maxWidth: 1100, margin: "0 auto", padding: "72px 24px 32px", textAlign: "center"}}>
           <h1
             style={{
               fontSize: 56,
@@ -154,7 +154,7 @@ export default function Home() {
           <p
             style={{
               maxWidth: 760,
-              marginTop: 18,
+              margin: "18px auto 0",
               fontSize: 18,
               lineHeight: 1.6,
               opacity: 0.72,
@@ -164,7 +164,7 @@ export default function Home() {
             and real outcomes.
           </p>
 
-          <div style={{ display: "flex", gap: 12, marginTop: 24, flexWrap: "wrap" }}>
+          <div style={{ display: "flex", justifyContent: "center", gap: 12, marginTop: 24, flexWrap: "wrap" }}>
             <a
               href="#projects"
               style={{
@@ -302,7 +302,7 @@ export default function Home() {
             padding: 24,
             }}
         >
-            <div style={{ maxWidth: 820 }}>
+            <div style={{ maxWidth: 820, margin: "0 auto", textAlign: "center" }}>
             <h2
                 style={{
                 fontSize: 28,
@@ -325,6 +325,7 @@ export default function Home() {
                 gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
                 gap: 14,
                 marginTop: 18,
+                textAlign: "left",
                 }}
             >
                 <div

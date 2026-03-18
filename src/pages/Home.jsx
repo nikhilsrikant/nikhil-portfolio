@@ -290,17 +290,73 @@ export default function Home() {
         </section>
 
         {/* ABOUT */}
-        <section id="about" style={{ maxWidth: 1100, margin: "0 auto", padding: "48px 24px" }}>
-          <h2 style={{ fontSize: 28, margin: 0 }}>About</h2>
-          <p style={{ marginTop: 14, maxWidth: 820, opacity: 0.72, lineHeight: 1.7 }}>
-            I’m an engineer focused on building reliable, modern products across AI, data, and
-            software systems. I enjoy turning messy problems into clean pipelines, strong UX,
-            and measurable results.
-          </p>
-          <div style={{ marginTop: 18, opacity: 0.72, lineHeight: 1.7 }}>
-            <div>• Interests: AI/ML, data pipelines, applied analytics, and product-grade engineering</div>
-            <div>• Currently: Open to internships and project collaborations</div>
-          </div>
+        <section
+        id="about"
+        style={{ maxWidth: 1100, margin: "0 auto", padding: "48px 24px" }}
+        >
+        <div
+            style={{
+            border: "1px solid rgba(255,255,255,.10)",
+            background: "rgba(255,255,255,.04)",
+            borderRadius: 26,
+            padding: 24,
+            }}
+        >
+            <div style={{ maxWidth: 820 }}>
+            <h2
+                style={{
+                fontSize: 28,
+                margin: 0,
+                letterSpacing: "-.2px",
+                }}
+            >
+                About
+            </h2>
+
+            <p style={{ marginTop: 14, opacity: 0.78, lineHeight: 1.75 }}>
+                I’m an engineer focused on building reliable, modern products across AI, data,
+                and software systems. I enjoy turning messy problems into clean pipelines,
+                strong UX, and measurable results.
+            </p>
+
+            <div
+                style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+                gap: 14,
+                marginTop: 18,
+                }}
+            >
+                <div
+                style={{
+                    border: "1px solid rgba(255,255,255,.10)",
+                    background: "rgba(255,255,255,.03)",
+                    borderRadius: 18,
+                    padding: 16,
+                }}
+                >
+                <div style={{ fontSize: 13, opacity: 0.65 }}>Interests</div>
+                <div style={{ marginTop: 8, opacity: 0.85, lineHeight: 1.6 }}>
+                    AI/ML • Data pipelines • Applied analytics • Product-grade engineering
+                </div>
+                </div>
+
+                <div
+                style={{
+                    border: "1px solid rgba(255,255,255,.10)",
+                    background: "rgba(255,255,255,.03)",
+                    borderRadius: 18,
+                    padding: 16,
+                }}
+                >
+                <div style={{ fontSize: 13, opacity: 0.65 }}>Currently</div>
+                <div style={{ marginTop: 8, opacity: 0.85, lineHeight: 1.6 }}>
+                    Open to internships and project collaborations
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
         </section>
 
         {/* CONTACT */}

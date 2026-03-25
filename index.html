@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Portfolio website for Nikhil Srikant Kulkarni — AI/ML, data processing, computer vision, and scalable data systems.">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="stylesheet" href="/assets/styles.css">
+      <script>
+        (() => {
+          const savedTheme = localStorage.getItem('theme');
+          const preferred = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+          document.documentElement.dataset.theme = savedTheme || preferred;
+        })();
+      </script>
+      <title>Nikhil Srikant Kulkarni | Portfolio</title>
+    </head>
+    <body>
+      <a class="skip-link" href="#main">Skip to content</a>
+      <div class="site-shell">
+
+<header class="site-header">
+  <div class="container site-header-inner">
+    <a class="brand" href="/" aria-label="Nikhil Srikant Kulkarni home">
+      <span class="brand-highlight">Nikhil</span> Srikant Kulkarni
+    </a>
+
+    <div class="nav-wrap">
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" data-menu-toggle>
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+          <path d="M4 7h16"></path>
+          <path d="M4 12h16"></path>
+          <path d="M4 17h16"></path>
+        </svg>
+      </button>
+
+      <nav class="nav-links" aria-label="Primary navigation" data-mobile-nav>
+        <a class="nav-link" href="/" data-nav-link>Home</a>
+        <a class="nav-link" href="/projects/" data-nav-link>Projects</a>
+        <a class="nav-link" href="/experience/" data-nav-link>Experience</a>
+        <a class="nav-link" href="/#about" data-nav-link>About</a>
+        <a class="nav-link" href="/#contact" data-nav-link>Contact</a>
+      </nav>
+    </div>
+
+    <div class="header-actions">
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle color mode">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3v2.5"></path>
+          <path d="M12 18.5V21"></path>
+          <path d="M4.93 4.93l1.77 1.77"></path>
+          <path d="M17.3 17.3l1.77 1.77"></path>
+          <path d="M3 12h2.5"></path>
+          <path d="M18.5 12H21"></path>
+          <path d="M4.93 19.07l1.77-1.77"></path>
+          <path d="M17.3 6.7l1.77-1.77"></path>
+          <circle cx="12" cy="12" r="4.5"></circle>
+        </svg>
+      </button>
+      <a class="button" href="/#contact">Let's talk</a>
+    </div>
+  </div>
+</header>
+
+        <main id="main">
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy" data-reveal>
+      <span class="eyebrow"><span class="eyebrow-dot"></span> Portfolio · AI/ML · Data Processing · Computer Vision</span>
+      <h1 class="hero-title">Building practical <span class="accent-text">AI, data, and computer vision systems.</span></h1>
+      <p class="hero-text">I'm Nikhil Srikant Kulkarni — a Data Science graduate student at Arizona State University with hands-on experience in OCR automation, computer vision, machine learning, and scalable data systems. I enjoy turning messy workflows and noisy datasets into useful tools, interpretable models, and reliable pipelines.</p>
+      <div class="hero-actions">
+        <a class="button" href="/projects/">View projects</a>
+        <a class="button-ghost" href="/experience/">View experience</a>
+        <a class="button-ghost" href="/#contact">Contact me</a>
+        <a class="button-ghost" href="/assets/resume/Nikhil_Srikant_Kulkarni_Resume.pdf" target="_blank" rel="noreferrer">Download resume</a>
+      </div>
+    </div>
+
+    <aside class="hero-panel" data-reveal>
+      <div class="hero-panel-stat">
+        <div class="stat-card">
+          <span class="stat-value">750K+</span>
+          <span class="stat-label">Crash records analyzed</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value">150K+</span>
+          <span class="stat-label">Borrower records processed</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value">60%</span>
+          <span class="stat-label">Faster image analysis</span>
+        </div>
+      </div>
+      <ul class="hero-list">
+        <li>Built OCR and image-analysis workflows that improved throughput and reduced manual effort.</li>
+        <li>Developed predictive modeling and preprocessing pipelines across structured, text, and graph data.</li>
+        <li>Worked with Neo4j, Kafka, Docker, and Kubernetes to build scalable analytics systems.</li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="focus-title">
+  <div class="container">
+    <div class="section-header" data-reveal>
+      <div>
+        <h2 class="section-title" id="focus-title">Core areas</h2>
+        <p class="section-text">My work spans data processing, machine learning, computer vision, and scalable analytics systems.</p>
+      </div>
+    </div>
+
+    <div class="focus-grid">
+      <a class="focus-card" href="/projects/" data-reveal>
+        <span class="focus-icon">🧩</span>
+        <div>
+          <h3>Projects</h3>
+          <p>Project pages covering predictive modeling, NLP, graph analytics, and systems work.</p>
+        </div>
+      </a>
+      <a class="focus-card" href="/experience/" data-reveal>
+        <span class="focus-icon">💼</span>
+        <div>
+          <h3>Experience</h3>
+          <p>Internship experience in OCR automation, image analysis, and delivery-oriented engineering.</p>
+        </div>
+      </a>
+      <a class="focus-card" href="/projects/traffic-risk-modeling-urban-safety/" data-reveal>
+        <span class="focus-icon">🧠</span>
+        <div>
+          <h3>Machine Learning</h3>
+          <p>Modeling, preprocessing, evaluation, and explainability across structured and text data.</p>
+        </div>
+      </a>
+      <a class="focus-card" href="/publications/vid-vision-in-dark/" data-reveal>
+        <span class="focus-icon">👁️</span>
+        <div>
+          <h3>Computer Vision</h3>
+          <p>OCR tools, low-light object detection, and image benchmarking workflows.</p>
+        </div>
+      </a>
+      <a class="focus-card" href="/projects/realtime-graph-analytics-pipeline/" data-reveal>
+        <span class="focus-icon">🛰️</span>
+        <div>
+          <h3>Data Systems</h3>
+          <p>Graph analytics, streaming, orchestration, and production-minded data pipelines.</p>
+        </div>
+      </a>
+      <a class="focus-card" href="/publications/" data-reveal>
+        <span class="focus-icon">📚</span>
+        <div>
+          <h3>Publication</h3>
+          <p>Published work on low-light object detection and image enhancement.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="featured-title">
+  <div class="container">
+    <div class="section-header" data-reveal>
+      <div>
+        <h2 class="section-title" id="featured-title">Featured <span class="accent-text">projects.</span></h2>
+        <p class="section-text">Selected work across predictive modeling, preprocessing, and graph-based data systems.</p>
+      </div>
+      <a class="button-inline" href="/projects/">View all projects →</a>
+    </div>
+
+    <div class="card-grid">
+      <a class="link-card" href="/projects/traffic-risk-modeling-urban-safety/" data-reveal>
+        <span class="card-kicker">AI / ML</span>
+        <h3>Severity-Driven Traffic Risk Modeling for Urban Safety</h3>
+        <p class="project-meta">Ongoing · Arizona State University</p>
+        <div class="meta-tags">
+          <span class="meta-tag">750K+ records</span>
+          <span class="meta-tag">XGBoost + SHAP</span>
+        </div>
+        <span class="arrow">View details →</span>
+      </a>
+
+      <a class="link-card" href="/projects/financial-risk-assessment-pipeline/" data-reveal>
+        <span class="card-kicker">Data + AI</span>
+        <h3>Financial Risk Assessment Preprocessing Pipeline</h3>
+        <p class="project-meta">150K borrower records · Arizona State University</p>
+        <div class="meta-tags">
+          <span class="meta-tag">SMOTE</span>
+          <span class="meta-tag">0.8203 ROC-AUC</span>
+        </div>
+        <span class="arrow">View details →</span>
+      </a>
+
+      <a class="link-card" href="/projects/realtime-graph-analytics-pipeline/" data-reveal>
+        <span class="card-kicker">Data Systems</span>
+        <h3>Real-Time Graph Analytics Pipeline | Neo4j + Kubernetes</h3>
+        <p class="project-meta">Jan 2025 – May 2025 · Arizona State University</p>
+        <div class="meta-tags">
+          <span class="meta-tag">Neo4j</span>
+          <span class="meta-tag">Kafka + Kubernetes</span>
+        </div>
+        <span class="arrow">View details →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="experience-title">
+  <div class="container">
+    <div class="section-header" data-reveal>
+      <div>
+        <h2 class="section-title" id="experience-title">Experience in <span class="accent-text">AI tools and data workflows.</span></h2>
+        <p class="section-text">Internship work spanning OCR automation, image analysis, and end-to-end engineering delivery.</p>
+      </div>
+      <a class="button-inline" href="/experience/">View experience →</a>
+    </div>
+
+    <div class="detail-grid">
+      <a class="detail-card" href="/experience/software-engineer-intern-cyient/" data-reveal>
+        <span class="detail-kicker">Internship</span>
+        <h3>Software Engineer Intern · Cyient Ltd.</h3>
+        <p class="project-meta">Jan 2024 – Jul 2024 · Hyderabad, Telangana, India · On-site</p>
+        <ul>
+          <li>Built an OCR-based automation tool to move structured data from PDFs into Excel.</li>
+          <li>Owned requirements, implementation, testing, and deployment of the workflow.</li>
+          <li>Improved accuracy and reduced manual effort in document-heavy processes.</li>
+        </ul>
+        <div class="badges">
+          <span class="badge">OCR automation</span>
+          <span class="badge">Workflow engineering</span>
+          <span class="badge">Testing</span>
+        </div>
+        <span class="arrow">Open experience page →</span>
+      </a>
+
+      <a class="detail-card" href="/experience/project-intern-nvidia-ai-technology-center/" data-reveal>
+        <span class="detail-kicker">Internship</span>
+        <h3>Project Intern · NVIDIA AI Technology Center</h3>
+        <p class="project-meta">Jan 2023 – Dec 2023 · India</p>
+        <ul>
+          <li>Built a MATLAB GUI for automated image comparison and visual benchmarking.</li>
+          <li>Created bulk-processing workflows for large image sets.</li>
+          <li>Improved productivity by 50% and cut image-analysis time by 60%.</li>
+        </ul>
+        <div class="badges">
+          <span class="badge">Computer vision</span>
+          <span class="badge">MATLAB</span>
+          <span class="badge">Image analysis</span>
+        </div>
+        <span class="arrow">Open experience page →</span>
+      </a>
+
+      <div class="mini-card" data-reveal>
+        <span class="mini-icon">⚡</span>
+        <h3>Current focus</h3>
+        <p>I'm looking for AI/ML roles where data processing, computer vision, and practical engineering come together to solve real problems.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="publication-title">
+  <div class="container">
+    <div class="section-header" data-reveal>
+      <div>
+        <h2 class="section-title" id="publication-title">Published <span class="accent-text">work.</span></h2>
+        <p class="section-text">A Springer conference paper in low-light computer vision and object detection.</p>
+      </div>
+      <a class="button-inline" href="/publications/">View publication →</a>
+    </div>
+
+    <div class="detail-grid">
+      <a class="detail-card" href="/publications/vid-vision-in-dark/" data-reveal>
+        <span class="detail-kicker">Conference paper</span>
+        <h3>ViD-Vision in Dark: Object Detection in Low Light Images</h3>
+        <p class="project-meta">Springer · ETMCIS 2024 · First online Oct 1, 2025</p>
+        <ul>
+          <li>Co-authored a paper on low-light object detection using Retinex-based enhancement and deep-learning-based detection.</li>
+          <li>Focused on improving visibility and localization in challenging low-light scenes.</li>
+          <li>Published in Springer as part of ETMCIS 2024 proceedings.</li>
+        </ul>
+        <div class="badges">
+          <span class="badge">Computer vision</span>
+          <span class="badge">Low-light imaging</span>
+          <span class="badge">Object detection</span>
+        </div>
+        <span class="arrow">Open publication page →</span>
+      </a>
+
+      <div class="mini-card" data-reveal>
+        <span class="mini-icon">🔬</span>
+        <h3>Research interests</h3>
+        <p>I'm especially interested in computer vision problems where visibility, noise, and real-world constraints shape the modeling approach.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about" aria-labelledby="about-title">
+  <div class="container">
+    <div class="section-header" data-reveal>
+      <div>
+        <h2 class="section-title" id="about-title">About me</h2>
+        <p class="section-text">I'm a graduate student focused on practical AI, data, and computer vision systems.</p>
+      </div>
+    </div>
+
+    <div class="about-grid">
+      <div class="surface-card" style="padding: 24px; display: grid; gap: 18px; justify-items: center;" data-reveal>
+        <div class="avatar-badge" aria-hidden="true">NK</div>
+        <div class="badges">
+          <span class="badge">Data Processing</span>
+          <span class="badge">Computer Vision</span>
+          <span class="badge">Machine Learning</span>
+        </div>
+      </div>
+
+      <div class="about-copy">
+        <div class="detail-section" data-reveal>
+          <p>I'm pursuing an M.S. in Data Science, Analytics and Engineering at Arizona State University. My background spans AI/ML, computer vision, OCR automation, and scalable data systems, with earlier training in electronics and communication engineering. I enjoy building tools and models that make real workflows faster, clearer, and more reliable.</p>
+        </div>
+
+        <div class="detail-section" data-reveal>
+          <p>Outside coursework and internships, I've volunteered with U &amp; I Organization to teach professional English and career guidance, and contributed to a village gas-leakage alert prototype that used sensor monitoring, SMS alerts, and buzzer notifications.</p>
+        </div>
+
+        <div class="education-grid">
+          <div class="timeline-card" data-reveal>
+            <span class="detail-kicker">Education</span>
+            <h3>Arizona State University</h3>
+            <p>M.S., Data Science, Analytics &amp; Engineering · Jan 2025 – Dec 2026</p>
+            <p>Tempe, Arizona · GPA: 3.67</p>
+          </div>
+          <div class="timeline-card" data-reveal>
+            <span class="detail-kicker">Education</span>
+            <h3>KLE Technological University</h3>
+            <p>B.E., Electronics &amp; Communication Engineering · Aug 2020 – Jul 2024</p>
+            <p>Hubli, India · GPA: 8.24 CGPA</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="skills-title">
+  <div class="container">
+    <div class="section-header" data-reveal>
+      <div>
+        <h2 class="section-title" id="skills-title">Core skills</h2>
+        <p class="section-text">A technical mix shaped by data processing, machine learning, computer vision, and platform-oriented analytics.</p>
+      </div>
+    </div>
+
+    <div class="skill-grid">
+      <div class="skill-card" data-reveal>
+        <h3>Top skills</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Data Processing</span>
+          <span class="skill-tag">Computer Vision</span>
+          <span class="skill-tag">Machine Learning</span>
+          <span class="skill-tag">Operating Systems</span>
+          <span class="skill-tag">Computer Networking</span>
+        </div>
+      </div>
+      <div class="skill-card" data-reveal>
+        <h3>Programming</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">C++</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">MATLAB</span>
+        </div>
+      </div>
+      <div class="skill-card" data-reveal>
+        <h3>ML &amp; computer vision</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">PyTorch</span>
+          <span class="skill-tag">TensorFlow</span>
+          <span class="skill-tag">Computer Vision</span>
+          <span class="skill-tag">OCR / Document Intelligence</span>
+          <span class="skill-tag">XGBoost</span>
+          <span class="skill-tag">SHAP</span>
+        </div>
+      </div>
+      <div class="skill-card" data-reveal>
+        <h3>Data &amp; analytics</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">EDA</span>
+          <span class="skill-tag">Feature Engineering</span>
+          <span class="skill-tag">Statistical Testing</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">Graph Analytics</span>
+          <span class="skill-tag">Model Evaluation</span>
+        </div>
+      </div>
+      <div class="skill-card" data-reveal>
+        <h3>Systems &amp; platforms</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">Kubernetes</span>
+          <span class="skill-tag">Kafka</span>
+          <span class="skill-tag">Neo4j</span>
+          <span class="skill-tag">Workflow Automation</span>
+          <span class="skill-tag">CMake</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact" aria-labelledby="contact-title">
+  <div class="container">
+    <div class="section-header" data-reveal>
+      <div>
+        <h2 class="section-title" id="contact-title">Contact me</h2>
+        <p class="section-text">Feel free to reach out for roles, collaborations, or conversations about AI, data, and computer vision.</p>
+      </div>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-stack">
+        <div class="contact-card" data-reveal>
+          <span class="detail-kicker">Get in touch</span>
+          <h3>Let's build something useful.</h3>
+          <p>I'm interested in AI/ML, data, computer vision, and platform roles where thoughtful engineering leads to measurable outcomes.</p>
+          <div class="badges">
+            <span class="badge">Greater Phoenix Area</span>
+            <span class="badge">Open to AI/ML roles</span>
+          </div>
+        </div>
+
+        <div class="cta-grid">
+          <div class="contact-card" data-reveal>
+            <span class="detail-kicker">Email</span>
+            <h3><a href="mailto:nikhil.srikant@outlook.com">nikhil.srikant@outlook.com</a></h3>
+            <p>Best for opportunities, collaborations, and interview-related conversations.</p>
+          </div>
+          <div class="contact-card" data-reveal>
+            <span class="detail-kicker">LinkedIn</span>
+            <h3><a href="https://www.linkedin.com/in/nikhilsrikant" target="_blank" rel="noreferrer">linkedin.com/in/nikhilsrikant</a></h3>
+            <p>Connect for networking, quick follow-ups, and recruiter outreach.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-card" data-reveal>
+        <span class="detail-kicker">Quick message</span>
+        <h3>Send a short note</h3>
+        <p>This form opens your email app with the subject and message filled in.</p>
+        <form class="contact-form" data-contact-form data-owner-name="Nikhil" data-to="nikhil.srikant@outlook.com">
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+          </div>
+          <div class="field">
+            <label for="email">Your email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          </div>
+          <div class="field">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" placeholder="Opportunity / collaboration / hello">
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell me a little about why you're reaching out." required></textarea>
+          </div>
+          <button class="button" type="submit">Open email draft</button>
+          <p class="form-note">Phone: <a href="tel:+14259745243">+1 (425) 974-5243</a> · <a href="https://github.com/nikhilsrikant" target="_blank" rel="noreferrer">GitHub</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+        </main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bar">
+      <p>© <span data-year></span> Nikhil Srikant Kulkarni. Built for Vercel and GitHub.</p>
+      <div class="footer-links">
+        <a href="mailto:nikhil.srikant@outlook.com">Email</a>
+        <a href="https://www.linkedin.com/in/nikhilsrikant" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://github.com/nikhilsrikant" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="/publications/">Publication</a>
+        <a href="/assets/resume/Nikhil_Srikant_Kulkarni_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+      </div>
+      <script src="/assets/script.js"></script>
+    </body>
+    </html>

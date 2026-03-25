@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Portfolio website for Nikhil Srikant Kulkarni — AI/ML, data processing, computer vision, and scalable data systems.">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="stylesheet" href="/assets/styles.css">
+      <script>
+        (() => {
+          const savedTheme = localStorage.getItem('theme');
+          const preferred = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+          document.documentElement.dataset.theme = savedTheme || preferred;
+        })();
+      </script>
+      <title>Projects | Nikhil Srikant Kulkarni</title>
+    </head>
+    <body>
+      <a class="skip-link" href="#main">Skip to content</a>
+      <div class="site-shell">
+
+<header class="site-header">
+  <div class="container site-header-inner">
+    <a class="brand" href="/" aria-label="Nikhil Srikant Kulkarni home">
+      <span class="brand-highlight">Nikhil</span> Srikant Kulkarni
+    </a>
+
+    <div class="nav-wrap">
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" data-menu-toggle>
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+          <path d="M4 7h16"></path>
+          <path d="M4 12h16"></path>
+          <path d="M4 17h16"></path>
+        </svg>
+      </button>
+
+      <nav class="nav-links" aria-label="Primary navigation" data-mobile-nav>
+        <a class="nav-link" href="/" data-nav-link>Home</a>
+        <a class="nav-link" href="/projects/" data-nav-link>Projects</a>
+        <a class="nav-link" href="/experience/" data-nav-link>Experience</a>
+        <a class="nav-link" href="/#about" data-nav-link>About</a>
+        <a class="nav-link" href="/#contact" data-nav-link>Contact</a>
+      </nav>
+    </div>
+
+    <div class="header-actions">
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle color mode">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3v2.5"></path>
+          <path d="M12 18.5V21"></path>
+          <path d="M4.93 4.93l1.77 1.77"></path>
+          <path d="M17.3 17.3l1.77 1.77"></path>
+          <path d="M3 12h2.5"></path>
+          <path d="M18.5 12H21"></path>
+          <path d="M4.93 19.07l1.77-1.77"></path>
+          <path d="M17.3 6.7l1.77-1.77"></path>
+          <circle cx="12" cy="12" r="4.5"></circle>
+        </svg>
+      </button>
+      <a class="button" href="/#contact">Let's talk</a>
+    </div>
+  </div>
+</header>
+
+        <main id="main">
+
+<section class="page-hero">
+  <div class="container" data-reveal>
+    <span class="eyebrow"><span class="eyebrow-dot"></span> Projects</span>
+    <h1 class="detail-title">Selected projects across <span class="accent-text">AI, analytics, NLP, and scalable data systems.</span></h1>
+    <p class="hero-text">Each project has its own page with the problem, approach, results, and tools in one place.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="card-grid">
+
+<a class="link-card" href="/projects/traffic-risk-modeling-urban-safety/" data-reveal>
+  <span class="card-kicker">Machine Learning · Urban Safety</span>
+  <h3>Severity-Driven Traffic Risk Modeling for Urban Safety</h3>
+  <p class="project-meta">Ongoing · Arizona State University</p>
+  <div class="meta-tags"><span class="meta-tag">Python</span><span class="meta-tag">XGBoost</span><span class="meta-tag">SHAP</span></div>
+  <span class="arrow">Open project →</span>
+</a>
+
+<a class="link-card" href="/projects/financial-risk-assessment-pipeline/" data-reveal>
+  <span class="card-kicker">Data Preprocessing · Predictive Modeling</span>
+  <h3>Financial Risk Assessment Preprocessing Pipeline</h3>
+  <p class="project-meta">150K borrower records · Arizona State University</p>
+  <div class="meta-tags"><span class="meta-tag">SMOTE</span><span class="meta-tag">RobustScaler</span><span class="meta-tag">ROC-AUC</span></div>
+  <span class="arrow">Open project →</span>
+</a>
+
+<a class="link-card" href="/projects/realtime-graph-analytics-pipeline/" data-reveal>
+  <span class="card-kicker">Data Systems · Graph Analytics</span>
+  <h3>Real-Time Graph Analytics Pipeline | Neo4j + Kubernetes</h3>
+  <p class="project-meta">Jan 2025 – May 2025 · Arizona State University</p>
+  <div class="meta-tags"><span class="meta-tag">Neo4j</span><span class="meta-tag">Kafka</span><span class="meta-tag">Kubernetes</span></div>
+  <span class="arrow">Open project →</span>
+</a>
+
+<a class="link-card" href="/projects/nlp-consumer-insights/" data-reveal>
+  <span class="card-kicker">NLP · Consumer Analytics</span>
+  <h3>NLP-Driven Consumer Insights | E-commerce Review Analysis</h3>
+  <p class="project-meta">Jan 2025 – May 2025 · Arizona State University</p>
+  <div class="meta-tags"><span class="meta-tag">LDA</span><span class="meta-tag">K-means</span><span class="meta-tag">Data Visualization</span></div>
+  <span class="arrow">Open project →</span>
+</a>
+
+<a class="link-card" href="/projects/caffeine-health-impact-analysis/" data-reveal>
+  <span class="card-kicker">Statistical Modeling · Health Analytics</span>
+  <h3>Caffeine &amp; Health Impact Analysis | Predictive Modeling</h3>
+  <p class="project-meta">Jan 2025 – May 2025 · Arizona State University</p>
+  <div class="meta-tags"><span class="meta-tag">ANOVA</span><span class="meta-tag">Scikit-Learn</span><span class="meta-tag">SVR</span></div>
+  <span class="arrow">Open project →</span>
+</a>
+
+<a class="link-card" href="/projects/embedded-radio-transceiver/" data-reveal>
+  <span class="card-kicker">Systems Foundations · Embedded Design</span>
+  <h3>Embedded Radio Transceiver</h3>
+  <p class="project-meta">Aug 2022 – Dec 2022 · KLE Technological University</p>
+  <div class="meta-tags"><span class="meta-tag">Embedded Systems</span><span class="meta-tag">Arduino</span><span class="meta-tag">AM Radio</span></div>
+  <span class="arrow">Open project →</span>
+</a>
+
+    </div>
+  </div>
+</section>
+
+        </main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bar">
+      <p>© <span data-year></span> Nikhil Srikant Kulkarni. Built for Vercel and GitHub.</p>
+      <div class="footer-links">
+        <a href="mailto:nikhil.srikant@outlook.com">Email</a>
+        <a href="https://www.linkedin.com/in/nikhilsrikant" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://github.com/nikhilsrikant" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="/publications/">Publication</a>
+        <a href="/assets/resume/Nikhil_Srikant_Kulkarni_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+      </div>
+      <script src="/assets/script.js"></script>
+    </body>
+    </html>

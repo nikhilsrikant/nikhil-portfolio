@@ -1159,3 +1159,69 @@ body {
     padding: 16px;
   }
 }
+
+
+/* Adaptive phone layout fix */
+.focus-card,
+.link-card,
+.detail-card,
+.contact-card,
+.timeline-card,
+.skill-card,
+.mini-card,
+.cta-card,
+.detail-section,
+.surface-card,
+.contact-grid > *,
+.detail-grid > *,
+.cta-grid > * {
+  min-width: 0;
+}
+
+.contact-card a,
+.form-note a,
+.footer-links a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.contact-card h3,
+.contact-card p,
+.form-note,
+.project-meta,
+.section-text,
+.hero-text {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 760px) {
+  .cta-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .contact-card {
+    overflow: hidden;
+  }
+
+  .contact-card h3 {
+    font-size: clamp(1.15rem, 6vw, 1.55rem);
+    line-height: 1.18;
+  }
+
+  .contact-card a {
+    display: inline-block;
+    max-width: 100%;
+  }
+
+  .field input,
+  .field textarea {
+    font-size: 16px;
+  }
+
+  .form-note {
+    display: grid;
+    gap: 6px;
+    line-height: 1.45;
+  }
+}
